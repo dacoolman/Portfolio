@@ -6,7 +6,7 @@ function spanish(){
 
 	document.getElementById('top pic 1').innerHTML = 'Desarrollador Full Stack'
 	document.getElementById('top pic 2').innerHTML = 'QA Anterior'
-	document.getElementById('top pic 3').innerHTML = 'Gracias por visitar mi sitio!'
+	document.getElementById('top pic 3').innerHTML = 'Gracias por visitar mi sitio'
 	document.getElementById('about header').innerHTML = 'Sobre Yo'
 	document.getElementById('about text').innerHTML = 'Hola! Mi nombre es Mike Berger y soy un desarrollador. Me gradué de Rice University, unas de las universidades mejores en los EE.UU y después pasé 2.5 años trabajando como QA en una compañia grande de tecnología en Wisconsin (se llama Epic). Hice pruebas por la aplicaciòn Cogito Data Warehouse y aprendí mucho sobre haciendo pruebas, bases de datos y el ciclo de desarrollo. Despuès de Epic y una viaje a Sur de América pasé todo de mi tiempo estudiando el desarrollo de web por tomando una programa de 12 semanas de programaciòn de software en Silicon Valley. Me gradué con certifiaciònes en cada curso que se ofreciò: CSS + HTML, LAMP, MEAN y Ruby on Rails. Pasaba más que 1000+ horas haciendo este programa. Ahora estoy buscando por el pròximo oportunidad.'
 	document.getElementById('contact header').innerHTML = 'Información de Contacto'
@@ -15,7 +15,7 @@ function spanish(){
 	document.getElementById('details dashboard header').innerHTML = 'Detalles'
 	document.getElementById('details dashboard').innerHTML = "Aquí está una aplicación para administrar a usuarios. Se puede crear, editar, y borrar usuarios al igual que dejar mensajes y comentarios en su perfil. Estilo con Materialize. Hizo con el LAMP stack (Linux, Apache, MySQL, PHP) y CodeIgniter."
 	document.getElementById('deployment dashboard header').innerHTML = 'Ver Aplicación'
-	document.getElementById('deployment dashboard').innerHTML = 'Ver Panel de Usuario!'
+	document.getElementById('deployment dashboard').innerHTML = 'Ver Panel de Usuario'
 	document.getElementById('code dashboard header').innerHTML = 'Ver Còdigo'
 	document.getElementById('code dashboard').innerHTML = 'Ver Github'
 
@@ -31,14 +31,14 @@ function spanish(){
 	document.getElementById('details periodic header').innerHTML = 'Detalles'
 	document.getElementById('details periodic').innerHTML = "Aqui está la tabla periódica hizo por a partir de cero con CSS y Javascript, sin la necesidad de un front-end framework"
 	document.getElementById('deployment periodic header').innerHTML = 'Ver Aplicación'
-	document.getElementById('deployment periodic').innerHTML = 'Ver Tabla Periódica!'
+	document.getElementById('deployment periodic').innerHTML = 'Ver Tabla Periódica'
 	document.getElementById('code periodic header').innerHTML = 'Ver Còdigo'
 	document.getElementById('code periodic').innerHTML = 'Ver Github'
 	
 	document.getElementById('details pacman header').innerHTML = 'Detalles'
 	document.getElementById('details pacman').innerHTML = "Aquí está mi implementación de Pacman. Lo hicé puramente con javascript en el front-end. Lo hice antes de asistir al programa de código. Creado por Firefox."
 	document.getElementById('deployment pacman header').innerHTML = 'Ver Aplicación'
-	document.getElementById('deployment pacman').innerHTML = 'Jugar Pacman!'
+	document.getElementById('deployment pacman').innerHTML = 'Jugar Pacman'
 	document.getElementById('code pacman header').innerHTML = 'Ver Còdigo'
 	document.getElementById('code pacman').innerHTML = 'Ver Github'
 

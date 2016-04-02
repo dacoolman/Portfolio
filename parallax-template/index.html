@@ -1,388 +1,333 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no" />
   <title>Mike Berger Portfolio</title>
-
- <link rel="icon" 
-      type="image/png" 
-      href="favicon.png">  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="icon" type="image/png" href="favicon.png">  
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <style>
-  .spacing{margin_top: 10px;
-    margin_bottom: 10px;}
-    .flag{display: inline-block;
-     position: relative;
-     top: 2px;}
-     .space_top{}
-     .space_bottom{margin-top: 100px;}
-     #nav-margin{margin-left: 200px;}
-     #mylogo{vertical-align: middle;}
-     .material-icons{color: black;}
-     .blockme{display: inline-block;
-      vertical-align: top;
-      
-      width: 33%;
-      height: 100px;
-      margin: auto;
-
-    }
-    #spaceme{display: inline-block;
-      vertical-align: top;
-      width: 100%;
-      height: 100px;
-      margin: auto;
-}
-  /*   #nav-mobile{background-color: white;}*/
-
-/*     .contact{display: inline-block;
-      vertical-align: middle;}*/
-
-
-   
-/*   
-      #thecontact{width: 400px;
-        margin-left: %;
-        display: inline-block;
-        text-align: center;}
-          .center{margin: auto;
-            display: inline-block;
-            width: 250px;
-            text-align: center;}*/
-
-  </style>
 </head>
 <body>
-
-
   <a name='espanol'></a>
-<div class='navbar-fixed'>
-
- <nav class="white" role="navigation">
-<!-- <a class="brand-logo left" href='#'>&nbsp;<img id = 'mylogo' src='thumbsup.png'></a> -->
-    <div class="nav-wrapper container">
-      
-      <ul class="left hide-on-med-and-down">
-        <li><a id='nav aboutme' href='#about'>About Me</a></li>
-        <li><a id='nav contact' href='#contactinfo'>Contact </a></li>
-        <li><a id = 'nav projects' href='#projects'> Projects </a></li>
-        <li><a id = 'nav aboutsite' href='#site'> About Site</a></li>
-      </ul>
-
-      <ul class="right hide-on-med-and-down">
-        <li><a href='javascript:void(null);' onclick='english()'><img class='flag' src='us.png'> English </a></li>
-        <li><a href='javascript:void(null);' onclick='spanish()'><img class='flag' src='es.png'>Español</a></li>
-      </ul>
-
-      <ul id="nav-mobile" class="side-nav">
-        <li><a href='javascript:void(null);' onclick='english()'><img class='flag' src='us.png'> English</a></li>
-         <li><a href='javascript:void(null);' onclick='spanish()'><img class='flag' src='es.png'> Español</a></li>
-      </ul>
-      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
-    </div>
-  </nav>
-</div>
-
+  <div class='navbar-fixed'>
+    <nav class="white" role="navigation">
+      <div class="nav-wrapper container">  
+        <ul class="left hide-on-med-and-down">
+          <li>
+            <a id='nav aboutme' href='#about'>About Me</a>
+          </li>
+          <li>
+            <a id='nav contact' href='#contactinfo'>Contact </a>
+          </li>
+          <li>
+            <a id = 'nav projects' href='#projects'> Projects </a>
+          </li>
+          <li>
+            <a id = 'nav aboutsite' href='#site'> About Site</a>
+          </li>
+        </ul>
+        <ul class="right hide-on-med-and-down">
+          <li>
+            <a href='javascript:void(null);' onclick='english()'><img class='flag' src='img/us.png'> English </a>
+          </li>
+          <li>
+            <a href='javascript:void(null);' onclick='spanish()'><img class='flag' src='img/es.png'>Español</a>
+          </li>
+        </ul>
+        <ul id="nav-mobile" class="side-nav">
+          <li>
+            <a href='javascript:void(null);' onclick='english()'><img class='flag' src='img/us.png'> English</a>
+          </li>
+           <li>
+            <a href='javascript:void(null);' onclick='spanish()'><img class='flag' src='img/es.png'> Español</a>
+          </li>
+        </ul>
+        <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+      </div>
+    </nav>
+  </div>
   <div id = "slider_init" class="slider init">
     <ul class="slides">
       <li>
-        <img src="me_8.jpg"> <!-- random image -->
+        <img src="img/me_8.jpg">
         <div class="caption center-align">
           <h1>Mike Berger</h1>
         </div>
       </li>
       <li>
-        <img src="me_9.jpg"> <!-- random image -->
+        <img src="img/me_9.jpg">
         <div class="caption left-align">
-          <h2 id = 'top pic 1'>Web developer</h2>
-         
+        <h2 id = 'top pic 1'>Web developer</h2> 
         </div>
       </li>
       <li>
-        <img src="me_10.jpg"> <!-- random image -->
+        <img src="img/me_10.jpg">
         <div class="caption black-text right-align">
           <h2 id = 'top pic 2'>Previous Software Tester</h2>
         </div>
       </li>
       <li>
-        <img src="me_11.jpg"> <!-- random image -->
+        <img src="img/me_11.jpg">
         <div class="caption black-text center-align">
-          <h2 id = 'top pic 3'>Thanks for visiting my site!</h2>
+          <h2 id = 'top pic 3'>Thanks for visiting my site</h2>
         </div>
       </li>
     </ul>
   </div>
-      
-
-<a name='about'></a>
+  <a name='about'></a>
   <div class="container">
     <div class="section">
-
       <div class="row">
         <div class="col s12 center">
-          
           <h2 class="icon-block"><i class="material-icons">info_outline</i></h2>
-   <!--          <div id="modalabout" class="modal">
-    <div class="modal-content">
-      <h4>About Me</h4>
-      <p>Hi everyone! My name is Mike Berger and I am a full-stack developer. After graduating from Rice University I spent 2.5 years working in Quality Assurance at a large tech firm in Wisconsin (called Epic). I tested Epic's Cogito Data Warehouse application and learned a ton about testing, databases and the software development cycle. After Epic I committed myself full time to learning web development by taking a 12 week immersive coding bootcamp in Silicon Valley.  I graduated with certifications (they call them 'belts') in each stack offered: CSS + HTML, LAMP, MEAN and Ruby on Rails and gained a good 1000+ hours of coding experience. Now I am searching for my next opportunity.</p>
-    </div>
-  </div> -->
           <h4 id='about header'>About Me</h4>
-          <p class="left-align light" id='about text'>Hi everyone! My name is Mike Berger and I am a full-stack developer. After graduating from Rice University I spent 2.5 years working in Quality Assurance at a large tech firm in Wisconsin (called Epic). I tested Epic's Cogito Data Warehouse application and learned a ton about testing, databases and the software development cycle. After Epic I committed myself full time to learning web development by taking a 12 week immersive coding bootcamp in Silicon Valley.  I graduated with certifications (they call them 'belts') in each stack offered: CSS + HTML, LAMP, MEAN and Ruby on Rails and gained a good 1000+ hours of coding experience. Now I am searching for my next opportunity.</p>
+          <p class="left-align light" id='about text'>
+            Hey I'm Mike, thanks for visiting my portfolio. I am a highly motivated, quality-focused web developer looking for a permanent software engineering role. I am a current full-stack developer at a start-up in San Mateo developing a B2B social application. Prior to that I was a UI Engineer for a startup in the Bay Area designing the application’s UI from scratch. I have professional level expertise in JavaScript, Backbone, LESS/CSS, Version Control/Git, MySQL and PHP among many other technologies and frameworks. My goal is to write modular, scalable, and industry-standard code for a dynamic company where I can use my creativity to solve challenging problems.
+          </p>
         </div>
       </div>
-
     </div>
   </div>
-<a name='contactinfo'></a>
+  <a name='contactinfo'></a>
   <div class="container">
     <div class="section">
-
       <div class="row">
         <div class="col s12">
           <center>
-          <h3><i class="mdi-content-send"></i></h3>
-          
-          <h4 id='contact header'>Contact Information</h4>
+            <h3><i class="mdi-content-send"></i></h3>  
+            <h4 id='contact header'>Contact Information</h4>
           </center>
           <br><br>
       </div>
+      </div>
     </div>
-  
-
-       <!-- Test -->
-
-           </div>
-           
-          
-          <div id='spaceme'>
-            <div class='blockme'>
-              <center>
-            <a href="https://www.linkedin.com/pub/michael-berger/49/a3a/3b4"><img src='linkedin.png'> <br>Linked-in</a>
-          </center>
-    
-          </div>
-          
-      
-            <div class='blockme'>
-              <center>
-            <a href="https://github.com/dacoolman"><img src='GitHub.png'><br> Github</a>
-          </center>
-            </div>
-        
-       
-              <div class='blockme'>  
-                <center>
-           <span id='email'> <img src='gmail.png'></span><br> <span id='address'>mikeberger.riceowl@gmail.com</span>
-         </center>
-          </div>
-         </div> 
-         
-   
-        <!-- Test--> 
-        
-      
-
-    </div>
+    <div id='spaceme'>
+      <div class='blockme'>
+        <center>
+          <a href="https://www.linkedin.com/pub/michael-berger/49/a3a/3b4"><img src='img/linkedin.png'> <br>Linked-in</a>
+        </center>
+      </div>
+      <div class='blockme'>
+        <center>
+          <a href="https://github.com/dacoolman"><img src='img/GitHub.png'><br> Github</a>
+        </center>
+      </div>
+      <div class='blockme'>  
+        <center>
+          <span id='email'> <img src='img/gmail.png'></span><br> <span id='address'>mikeberger.riceowl@gmail.com</span>
+        </center>
+      </div>
+    </div> 
   </div>
-<a name='projects'></a>
+  <a name='projects'></a>
   <center>
-<h2 id='project header'>Projects</h2>
+    <h2 id='project header'>Projects</h2>
   </center>
-<div class='space_bottom'></div>
+  <div class='space_bottom'></div>
   <a name='tournament'></a><a name='torneo-espanol'></a>
-
-
   <div id="slider_tournament" class="slider tournament">
     <ul class="slides">
       <li>
-        <img src="tournament_code.png"> <!-- random image -->
+        <img src="img/tournament_code.png">
         <div class="caption center-align">
-          <h3>Ninja Tournament!</h3>
+          <h3>Ninja Tournament</h3>
           <h5 class="light grey-text text-lighten-3">Ruby on Rails</h5>
         </div>
       </li>
       <li>
-        <img src="tournament_cover.png"> <!-- random image -->
+        <img src="img/tournament_cover.png">
         <div class="caption black center-align">
-          <h3>Ninja Tournament!</h3>
+          <h3>Ninja Tournament</h3>
           <h5 class="light black text-lighten-3">Ruby on Rails</h5>
         </div>
       </li>
       <li>
-        <img src="tournament_3.jpg"> <!-- random image -->
+        <img src="img/tournament_3.jpg">
         <div class="caption black-text right-align">
-          <h3>Ninja Tournament!</h3>
+          <h3>Ninja Tournament</h3>
           <h5 class="light black-text text-lighten-3">Ruby on Rails</h5>
         </div>
       </li>
     </ul>
   </div>
-
-
- <div class="row">
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons">help_outline</i></h2>
-            <h5 class="center" id='details tournament header'>Details</h5>
-
-            <p class="light" id='details tournament'>Here is an app to create a single elimination tournament (made from scratch with Ember and Rails). It calculates number of byes necessary, each player's ELO rating for a win/loss (if Ping Pong is selected) and seeds based on rating or random. A user can drag and drop the winner to advance them in the tournament, or reverse a decision with an 'undo' button. Ember talks with a back-end API in Rails that does the calculations for the tournament. Front-end made by <a href="https://www.linkedin.com/in/jagdeepbrar">Jagdeep Brar</a>, I made the back-end.</p>
-          </div>
-        </div>
-
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center brown-text"><a href='https://floating-waters-1471.herokuapp.com'><i class="material-icons">play_circle_filled</i></a></h2>
-            <h5 class="center" id='deployment tournament header'>See Deployment</h5>
-
-            <p class="light"><a href='https://floating-waters-1471.herokuapp.com'><center><h5><span id='deployment tournament'>Create a Single-Elimination Tournament!</span></h5></center></a></p>
-           <p class="light"><a href='https://vimeo.com/138020009'><center><h5><span id='deployment tournament 2'>See Video Walk-Through</span></h5></center></a></p>
-          </div>
-          </div>
-    
-
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center brown-text"><a href='https://github.com/dacoolman/NinjaTournament'><i class="material-icons">settings</i></a></h2>
-            <h5 class="center" id='code tournament header'>See Code</h5>
-
-            <p class="light">
-<a href='https://github.com/dacoolman/NinjaTournament'><center><h5><span id='code tournament 1'>See Repository for Back-End</span></h5></center></a><a href='https://github.com/jaybrar/TournamentEmber'><center><h5><span id='code tournament 2'>See Repository for Front-End</span></h5></center></a></p>
-            </p>
-          </div>
-        </div>
+  <div class="row">
+    <div class="col s12 m4">
+      <div class="icon-block">
+        <h2 class="center brown-text"><i class="material-icons">help_outline</i></h2>
+        <h5 class="center" id='details tournament header'>Details</h5>
+        <p class="light" id='details tournament'>
+          Here is an app to create a single elimination tournament (made from scratch with Ember and Rails). It calculates number of byes necessary, each player's ELO rating for a win/loss (if Ping Pong is selected) and seeds based on rating or random. A user can drag and drop the winner to advance them in the tournament, or reverse a decision with an 'undo' button. Ember talks with a back-end API in Rails that does the calculations for the tournament. Front-end made by <a href="https://www.linkedin.com/in/jagdeepbrar">Jagdeep Brar</a>, I made the back-end.
+        </p>
       </div>
-
+    </div>
+    <div class="col s12 m4">
+      <div class="icon-block">
+        <h2 class="center brown-text"><a href='https://floating-waters-1471.herokuapp.com'><i class="material-icons">play_circle_filled</i></a></h2>
+        <h5 class="center" id='deployment tournament header'>See Deployment</h5>
+        <p class="light">
+          <a href='https://floating-waters-1471.herokuapp.com'>
+            <center>
+              <h5><span id='deployment tournament'>Create a Single-Elimination Tournament</span></h5>
+            </center>
+          </a>
+        </p>
+       <p class="light">
+        <a href='https://vimeo.com/138020009'>
+          <center>
+            <h5><span id='deployment tournament 2'>See Video Walk-Through</span></h5>
+          </center>
+        </a>
+      </p>
+      </div>
+    </div>
+    <div class="col s12 m4">
+      <div class="icon-block">
+        <h2 class="center brown-text"><a href='https://github.com/dacoolman/NinjaTournament'><i class="material-icons">settings</i></a></h2>
+        <h5 class="center" id='code tournament header'>See Code</h5>
+        <p class="light">
+          <a href='https://github.com/dacoolman/NinjaTournament'>
+            <center>
+              <h5><span id='code tournament 1'>See Repository for Back-End</span></h5>
+            </center>
+          </a>
+          <a href='https://github.com/jaybrar/TournamentEmber'>
+            <center>
+              <h5><span id='code tournament 2'>See Repository for Front-End</span></h5>
+            </center>
+          </a>
+        </p>
+      </div>
     </div>
   </div>
-    <div class='space_bottom'></div>
-    <a name='dashboard'></a><a name='panel-espanol'></a>
- <div id = "slider_dashboard" class="slider dashboard">
+  <div class='space_bottom'></div>
+  <a name='dashboard'></a><a name='panel-espanol'></a>
+  <div id = "slider_dashboard" class="slider dashboard">
     <ul class="slides">
       <li>
-        <img src="dashboard_code.png"> <!-- random image -->
+        <img src="img/dashboard_code.png">
         <div class="caption black center-align">
           <h3>User Dashboard</h3>
           <h5 class="light text-lighten-3">LAMP (PHP + CodeIgniter)</h5>
         </div>
       </li>
       <li>
-        <img src="dashboard_home.png"> <!-- random image -->
+        <img src="img/dashboard_home.png">
         <div class="caption black center-align">
-      <h3>User Dashboard</h3>
+          <h3>User Dashboard</h3>
           <h5 class="light text-lighten-3">LAMP (PHP + CodeIgniter)</h5>
         </div>
       </li>
       <li>
-        <img src="dashboard_5.png"> <!-- random image -->
-       <div class="caption black center-align">
-      <h3>User Dashboard</h3>
+        <img src="img/dashboard_5.png">
+        <div class="caption black center-align">
+          <h3>User Dashboard</h3>
           <h5 class="light text-lighten-3">LAMP (PHP + CodeIgniter)</h5>
         </div>
       </li>
     </ul>
-  </div>
-      
-<br><br><br>
- <div class="row">
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons">help_outline</i></h2>
-            <h5 class="center" id='details dashboard header'>Details</h5>
-
-            <p class="light" id='details dashboard'>Here is an app to handle user management. You can create, edit and delete users along with post on their walls and comment on messages. Styled with Materialize. Made with the LAMP stack (Linux, Apache, MySQL, PHP) and CodeIgniter.</p>
-          </div>
-        </div>
-
-        <div class="col s12 m4">
-          <div class="icon-block">
-           
-            <h2 class="center brown-text"><a href='http://dashboard.mikeberger.us'> <i class="material-icons">play_circle_filled</i></a></h2>
-            <h5 class="center" id='deployment dashboard header'>See Deployment</h5>
-
-            <p class="light"><a href='http://dashboard.mikeberger.us'><center><h5><span id='deployment dashboard'>See User Dashboard!</span></h5></center></a></p></div>
-          </div>
-        
-
-        <div class="col s12 m4">
-          <div class="icon-block">
-           <h2 class="center brown-text"><a href='https://github.com/dacoolman/UserDashboard'><i class="material-icons">settings</i></a></h2>
-            <h5 class="center" id='code dashboard header'>See Code</h5>
-
-            <p class="light">
-<a href='https://github.com/dacoolman/UserDashboard'><center><h5><span id='code dashboard'>See Github Repository</span></h5></center></a></p>
-            </p>
-          </div>
-        </div>
+  </div> 
+  <br><br><br>
+  <div class="row">
+    <div class="col s12 m4">
+      <div class="icon-block">
+        <h2 class="center brown-text"><i class="material-icons">help_outline</i></h2>
+        <h5 class="center" id='details dashboard header'>Details</h5>
+        <p class="light" id='details dashboard'>
+          Here is an app to handle user management. You can create, edit and delete users along with post on their walls and comment on messages. Styled with Materialize. Made with the LAMP stack (Linux, Apache, MySQL, PHP) and CodeIgniter.
+        </p>
       </div>
-
+    </div>
+    <div class="col s12 m4">
+      <div class="icon-block">
+        <h2 class="center brown-text"><a href='http://dashboard.mikeberger.us'> <i class="material-icons">play_circle_filled</i></a></h2>
+        <h5 class="center" id='deployment dashboard header'>See Deployment</h5>
+        <p class="light">
+          <a href='http://dashboard.mikeberger.us'>
+            <center>
+              <h5><span id='deployment dashboard'>See User Dashboard</span></h5>
+            </center>
+          </a>
+        </p>
+      </div>
+    </div>
+    <div class="col s12 m4">
+      <div class="icon-block">
+       <h2 class="center brown-text"><a href='https://github.com/dacoolman/UserDashboard'><i class="material-icons">settings</i></a></h2>
+        <h5 class="center" id='code dashboard header'>See Code</h5>
+        <p class="light">
+          <a href='https://github.com/dacoolman/UserDashboard'>
+            <center>
+              <h5><span id='code dashboard'>See Github Repository</span></h5>
+            </center>
+          </a>
+        </p>
+      </div>
     </div>
   </div>
-
-   <div class='space_bottom'></div>
-
-<a name='mean'></a><a name='mean-espanol'></a>
-<div id = "slider_sicklists" class="slider sicklists">
+  <div class='space_bottom'></div>
+  <a name='mean'></a><a name='mean-espanol'></a>
+  <div id = "slider_sicklists" class="slider sicklists">
     <ul class="slides">
       <li>
-        <img src="sicklists_code.png"> <!-- random image -->
+        <img src="img/sicklists_code.png">
         <div class="caption center-align">
           <h3>SickLists</h3>
           <h5 class="light text-lighten-3">MEAN Stack</h5>
         </div>
       </li>
       <li>
-        <img src="sicklists.jpg"> <!-- random image -->
+        <img src="img/sicklists.jpg">
         <div class="caption center-align">
-      <h3>SickLists</h3>
+          <h3>SickLists</h3>
           <h5 class="light text-lighten-3">MEAN Stack</h5>
         </div>
       </li>
       <li>
-        <img src="sicklists_2.jpg"> <!-- random image -->
-       <div class="caption black center-align">
-      <h3>SickLists</h3>
+        <img src="img/sicklists_2.jpg">
+        <div class="caption black center-align">
+          <h3>SickLists</h3>
           <h5 class="light text-lighten-3">MEAN Stack</h5>
         </div>
       </li>
     </ul>
   </div>
-
   <div class="row">
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons">help_outline</i></h2>
-            <h5 class="center" id='details sicklists header'>Details</h5>
-
-            <p class="light" id='details sicklists'>Here is an application to show the best playlists across different websites (Youtube, Spotify, 8tracks, etc). It organizes the playlists by genre then likes and has leaderboards to show the most popular playlists. It is written in full MEAN; front-end uses Angular.js, back-end uses Node.js and Express, and the database is MongoDB. I made the back-end and some of the front-end, front-end finished by <a href="https://www.linkedin.com/in/hsjung">Hyun Jung</a> </p>
-          </div>
-        </div>
-
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center brown-text"><a href='https://sicklists.herokuapp.com'><i class="material-icons">play_circle_filled</i></a></h2>
-            <h5 class="center" id='deployment sicklists header'>See Deployment</h5>
-
-            <p class="light"><center><h5><a href='https://sicklists.herokuapp.com'><span id='deployment sicklists'>See the Web's Best Playlists!</span></a></h5></center></p></div>
-          </div>
-        
-
-        <div class="col s12 m4">
-          <div class="icon-block">
-         <h2 class="center brown-text"><a href='https://github.com/dacoolman/SickLists'><i class="material-icons">settings</i></a></h2>
-            <h5 class="center" id='code sicklists header'>See Code</h5>
-
-            <p class="light"><a href='https://github.com/dacoolman/SickLists'><center><h5><span id='code sicklists'>Github Repository</span></h5></center></a></p>
-          </div>
-        </div>
+    <div class="col s12 m4">
+      <div class="icon-block">
+        <h2 class="center brown-text"><i class="material-icons">help_outline</i></h2>
+        <h5 class="center" id='details sicklists header'>Details</h5>
+        <p class="light" id='details sicklists'>
+          Here is an application to show the best playlists across different websites (Youtube, Spotify, 8tracks, etc). It organizes the playlists by genre then likes and has leaderboards to show the most popular playlists. It is written in full MEAN; front-end uses Angular.js, back-end uses Node.js and Express, and the database is MongoDB. I made the back-end and some of the front-end, front-end finished by <a href="https://www.linkedin.com/in/hsjung">Hyun Jung</a>
+        </p>
       </div>
-
+    </div>
+    <div class="col s12 m4">
+      <div class="icon-block">
+        <h2 class="center brown-text"><a href='https://sicklists.herokuapp.com'><i class="material-icons">play_circle_filled</i></a></h2>
+        <h5 class="center" id='deployment sicklists header'>See Deployment</h5>
+        <p class="light">
+          <center>
+            <h5><a href='https://sicklists.herokuapp.com'><span id='deployment sicklists'>See the Web's Best Playlists</span></a></h5>
+          </center>
+        </p>
+      </div>
+    </div>
+    <div class="col s12 m4">
+      <div class="icon-block">
+     <h2 class="center brown-text"><a href='https://github.com/dacoolman/SickLists'><i class="material-icons">settings</i></a></h2>
+        <h5 class="center" id='code sicklists header'>See Code</h5>
+        <p class="light">
+          <a href='https://github.com/dacoolman/SickLists'>
+            <center>
+              <h5><span id='code sicklists'>Github Repository</span></h5>
+            </center>
+          </a>
+        </p>
+      </div>
     </div>
   </div>
-
  <div class='space_bottom'></div>
  <a name='pacman'></a><a name='pacman-espanol'></a>
   <div class="parallax-container valign-wrapper">
@@ -393,103 +338,105 @@
         </div>
       </div>
     </div>
-
-<br><br><br>
-    <div class="parallax"><img src="pacman_portfolio.png" alt="Unsplashed background img 3"></div>
+    <br><br><br>
+    <div class="parallax"><img src="img/pacman_portfolio.png" alt="Unsplashed background img 3"></div>
   </div>
-<br><br><br>
+  <br><br><br>
   <div class="container">
     <div class="section">
-
-      <!--   Icon Section   -->
       <div class="row">
         <div class="col s12 m4">
           <div class="icon-block">
             <h2 class="center brown-text"><i class="material-icons">help_outline</i></h2>
             <h5 class="center" id='details pacman header'>Details</h5>
-
             <p class="light" id='details pacman'>Here is my implementation of Pacman. It was made purely with Javascript on the front-end. This was finished before I attended the coding bootcamp. Targeted for Firefox.</p>
           </div>
         </div>
-
         <div class="col s12 m4">
           <div class="icon-block">
             <h2 class="center brown-text"><a href='http://mikeberger.us/Pacman/'><i class="material-icons">play_circle_filled</i></a></h2>
             <h5 class="center" id='deployment pacman header'>See Deployment</h5>
-
-            <p class="light"><a href='http://mikeberger.us/Pacman/'><center><h5><span id='deployment pacman'>Play Pacman!</span></h5></center></a></p></div>
+            <p class="light">
+              <a href='http://mikeberger.us/Pacman/'>
+                <center>
+                  <h5><span id='deployment pacman'>Play Pacman</span></h5>
+                </center>
+              </a>
+            </p>
           </div>
-        
-
+        </div>
         <div class="col s12 m4">
           <div class="icon-block">
-         <h2 class="center brown-text"><a href='https://github.com/dacoolman/Pacman'><i class="material-icons">settings</i></a></h2>
+            <h2 class="center brown-text"><a href='https://github.com/dacoolman/Pacman'><i class="material-icons">settings</i></a></h2>
             <h5 class="center" id='code pacman header'>See Code</h5>
-
-            <p class="light"><a href='https://github.com/dacoolman/Pacman'><center><h5><span id='code pacman'>See Github Repository</span></h5></center></a></p>
+            <p class="light">
+              <a href='https://github.com/dacoolman/Pacman'>
+                <center>
+                  <h5><span id='code pacman'>See Github Repository</span></h5>
+                </center>
+              </a>
+            </p>
           </div>
         </div>
       </div>
-
     </div>
   </div>
- <div class='space_bottom'></div>
-
-
-<a name='chatroom'></a><a name='sala-espanol'></a>
-<div id='slider_chatroom' class="slider chatroom">
+  <div class='space_bottom'></div>
+  <a name='chatroom'></a><a name='sala-espanol'></a>
+  <div id='slider_chatroom' class="slider chatroom">
     <ul class="slides">
       <li>
-        <img src="chatroom_code.png"> <!-- random image -->
+        <img src="img/chatroom_code.png">
         <div class="caption black center-align">
           <h3>Chatroom</h3>
           <h5 class="light text-lighten-3">Node.js + Sockets.io</h5>
         </div>
       </li>
       <li>
-        <img src="chat.jpg"> <!-- random image -->
-       <div class="caption black center-align">
-      <h3>Chatroom</h3>
+        <img src="img/chat.jpg">
+        <div class="caption black center-align">
+          <h3>Chatroom</h3>
           <h5 class="light text-lighten-3">Node.js + Sockets.io</h5>
         </div>
       </li>
     </ul>
   </div>
-<br>
-
- <div class="row">
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons">help_outline</i></h2>
-            <h5 class="center" id='details chatroom header'>Details</h5>
-
-            <p class="light" id='details chatroom'>Here is a simple chatroom application that uses sockets.io to communicate with a node back-end</p>
-          </div>
-        </div>
-
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center brown-text"><a href='https://mabchatroom.herokuapp.com/'><i class="material-icons">play_circle_filled</i></a></h2>
-            <h5 class="center" id='deployment chatroom header'>See Deployment</h5>
-
-            <p class="light"><center><h5><a href='https://mabchatroom.herokuapp.com/'><span id='deployment chatroom'>See Chatroom</span></a></h5></center></p></div>
-          </div>
-        
-
-        <div class="col s12 m4">
-          <div class="icon-block">
-          <h2 class="center brown-text"><a href='https://github.com/dacoolman/Chatroom_B'><i class="material-icons">settings</i></a></h2>
-            <h5 class="center" id='code chatroom header'>See Code</h5>
-
-            <p class="light"><a href='https://github.com/dacoolman/Chatroom_B'><center><h5><span id='code chatroom'>Github Repository</span></h5></center></a></p>
-          </div>
-        </div>
+  <br>
+  <div class="row">
+    <div class="col s12 m4">
+      <div class="icon-block">
+        <h2 class="center brown-text"><i class="material-icons">help_outline</i></h2>
+        <h5 class="center" id='details chatroom header'>Details</h5>
+        <p class="light" id='details chatroom'>
+          Here is a simple chatroom application that uses sockets.io to communicate with a node back-end
+        </p>
       </div>
-
+    </div>
+    <div class="col s12 m4">
+      <div class="icon-block">
+        <h2 class="center brown-text"><a href='https://mabchatroom.herokuapp.com/'><i class="material-icons">play_circle_filled</i></a></h2>
+        <h5 class="center" id='deployment chatroom header'>See Deployment</h5>
+        <p class="light">
+          <center>
+            <h5><a href='https://mabchatroom.herokuapp.com/'><span id='deployment chatroom'>See Chatroom</span></a></h5>
+          </center>
+        </p>
+      </div>
+    </div>
+    <div class="col s12 m4">
+      <div class="icon-block">
+      <h2 class="center brown-text"><a href='https://github.com/dacoolman/Chatroom_B'><i class="material-icons">settings</i></a></h2>
+        <h5 class="center" id='code chatroom header'>See Code</h5>
+        <p class="light">
+          <a href='https://github.com/dacoolman/Chatroom_B'>
+          <center><h5><span id='code chatroom'>Github Repository</span></h5></center>
+          </a>
+        </p>
+      </div>
     </div>
   </div>
- <div class='space_bottom'></div>
- <a name='periodic'></a><a name='periodica-espanol'></a>
+  <div class='space_bottom'></div>
+  <a name='periodic'></a><a name='periodica-espanol'></a>
   <div class="parallax-container valign-wrapper">
     <div class="section no-pad-bot">
       <div class="container">
@@ -498,73 +445,71 @@
         </div>
       </div>
     </div>
-<br><br><br>
-
-
-    <div class="parallax"><img src="periodic_updated_2.jpg" alt="Unsplashed background img 2"></div>
-  </div>
-<br><br><br>
- <div class="row">
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons">help_outline</i></h2>
-            <h5 class="center" id='details periodic header'>Details</h5>
-
-            <p class="light" id='details periodic'>Here is the periodic table I built from scratch. It was made purely with CSS and Javascript, no front-end framework needed!</p>
-          </div>
+    <br><br><br>
+    <div class="parallax">
+      <img src="img/periodic_updated_2.jpg" alt="Unsplashed background img 2"></div>
+    </div>
+    <br><br><br>
+    <div class="row">
+      <div class="col s12 m4">
+        <div class="icon-block">
+          <h2 class="center brown-text"><i class="material-icons">help_outline</i></h2>
+          <h5 class="center" id='details periodic header'>Details</h5>
+          <p class="light" id='details periodic'>
+            Here is the periodic table I built from scratch. It was made purely with CSS and Javascript, no front-end framework needed
+          </p>
         </div>
-
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center brown-text"><a href='http://www.mikeberger.us/Periodic_Table/'><i class="material-icons">play_circle_filled</i></a></h2>
-            <h5 class="center" id='deployment periodic header'>See Deployment</h5>
-
-            <p class="light"><a href='http://www.mikeberger.us/Periodic_Table/'><center><h5><span id='deployment periodic'>See Periodic Table!</span></h5></center></a></p></div>
-          </div>
-        
-
-        <div class="col s12 m4">
-          <div class="icon-block">
-           <h2 class="center brown-text"><a href='https://github.com/dacoolman/Periodic'><i class="material-icons">settings</i></a></h2>
-            <h5 class="center" id='code periodic header'>See Code</h5>
-
-            <p class="light"><a href='https://github.com/dacoolman/Periodic'><center><h5><span id='code periodic'>See Github repository</span></h5></center></a></p>
+      </div>
+      <div class="col s12 m4">
+        <div class="icon-block">
+          <h2 class="center brown-text"><a href='http://www.mikeberger.us/Periodic_Table/'><i class="material-icons">play_circle_filled</i></a></h2>
+          <h5 class="center" id='deployment periodic header'>See Deployment</h5>
+          <p class="light">
+            <a href='http://www.mikeberger.us/Periodic_Table/'>
+              <center>
+                <h5><span id='deployment periodic'>See Periodic Table</span></h5>
+              </center></a>
+          </p>
+        </div>
+      </div>
+      <div class="col s12 m4">
+        <div class="icon-block">
+         <h2 class="center brown-text"><a href='https://github.com/dacoolman/Periodic'><i class="material-icons">settings</i></a></h2>
+          <h5 class="center" id='code periodic header'>See Code</h5>
+          <p class="light">
+            <a href='https://github.com/dacoolman/Periodic'>
+              <center>
+                <h5><span id='code periodic'>See Github repository</span></h5>
+              </center>
+            </a>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class='space_bottom'></div>
+    <a name='site'></a>
+    <footer class="page-footer blue lighten-2">
+      <div class="container">
+        <div class="row">
+          <div class="col l6 s12">
+            <h5 id='footer_header' class="white-text">About this site</h5>
+            <p id='footer_details' class="grey-text text-lighten-4">
+              This site was made using Materialize. Parallax effect looks best on Chrome and Firefox on Mac OS or Firefox on Windows. Site is mobile-phone friendly. Spanish/English translation made with a javascript function saved for English and Spanish, original values in English stored in a closure, Spanish values stored in a separate file, elements get updated with DocumentGetElementById.
+            </p>
           </div>
         </div>
       </div>
-
-    </div>
-  </div>
- <div class='space_bottom'></div>
-   <a name='site'></a>
-  <footer class="page-footer blue lighten-2">
-    <div class="container">
-      <div class="row">
-        <div class="col l6 s12">
-          <h5 id='footer_header' class="white-text">About this site</h5>
-          <p id='footer_details' class="grey-text text-lighten-4">This site was made using Materialize. Parallax looks best on Chrome and Firefox on Mac OS or Firefox on Windows. Is mobile-phone friendly. Spanish/English translation made with a javascript function saved for English and Spanish, original values in English stored in a closure, Spanish values stored in a separate file, elements get updated with DocumentGetElementById.</p>
-
-
+      <div class="footer-copyright">
+        <div id='footer_copyright' class="container" >
+          Made by Mike Berger, 2015
         </div>
-
       </div>
-    </div>
-    <div class="footer-copyright">
-      <div id='footer_copyright' class="container" >
-      Made by Mike Berger, 2015
-      </div>
-    </div>
-
-
   </footer>
-
-
   <!--  Scripts-->
-  
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/js/materialize.min.js"></script>
   <script src="js/english.js"></script>
   <script src="js/spanish.js"></script>
-    <script src="js/init.js"></script>
-  </body>
+  <script src="js/init.js"></script>
+</body>
 </html>
