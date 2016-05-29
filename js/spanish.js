@@ -34,6 +34,13 @@ function spanish(){
 	document.getElementById('deployment periodic').innerHTML = 'Ver Tabla Periódica'
 	document.getElementById('code periodic header').innerHTML = 'Ver Còdigo'
 	document.getElementById('code periodic').innerHTML = 'Ver Github'
+
+	document.getElementById('details fill header').innerHTML = 'Detalles'
+	document.getElementById('details fill').innerHTML = "Un ejemplo simple de recursividad. Haga clic en un cuadro y todos los cuadros alrededor que tienen el color cambian a negro. Compatible con Firefox y Chrome."
+	document.getElementById('deployment fill header').innerHTML = 'Ver Ejemplo'
+	document.getElementById('deployment fill').innerHTML = 'Ver Llenamiento Recursivo'
+	document.getElementById('code fill header').innerHTML = 'Ver Còdigo'
+	document.getElementById('code fill').innerHTML = 'Ver Github'
 	
 	document.getElementById('details pacman header').innerHTML = 'Detalles'
 	document.getElementById('details pacman').innerHTML = "Aquí está mi implementación de Pacman. Lo hicé puramente con javascript en el front-end. Lo hice antes de asistir al programa de código. Creado por Firefox."

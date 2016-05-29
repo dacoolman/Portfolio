@@ -35,6 +35,13 @@ function get_english_values(){
 	var deployment_periodic = document.getElementById('deployment periodic').innerHTML
 	var code_periodic_header = document.getElementById('code periodic header').innerHTML
 	var code_periodic = document.getElementById('code periodic').innerHTML;
+
+	var details_fill_header = document.getElementById('details fill header').innerHTML
+	var details_fill = document.getElementById('details fill').innerHTML
+	var deployment_fill_header = document.getElementById('deployment fill header').innerHTML
+	var deployment_fill = document.getElementById('deployment fill').innerHTML
+	var code_fill_header = document.getElementById('code fill header').innerHTML
+	var code_fill = document.getElementById('code fill').innerHTML;
 	
 	var details_pacman_header = document.getElementById('details pacman header').innerHTML
 	var details_pacman = document.getElementById('details pacman').innerHTML
@@ -97,6 +104,13 @@ function get_english_values(){
 		document.getElementById('deployment periodic').innerHTML = deployment_periodic
 		document.getElementById('code periodic header').innerHTML = code_periodic_header
 		document.getElementById('code periodic').innerHTML = code_periodic
+
+		document.getElementById('details fill header').innerHTML = details_fill_header
+		document.getElementById('details fill').innerHTML = details_fill
+		document.getElementById('deployment fill header').innerHTML = deployment_fill_header
+		document.getElementById('deployment fill').innerHTML = deployment_fill
+		document.getElementById('code fill header').innerHTML = code_fill_header
+		document.getElementById('code fill').innerHTML = code_fill
 		
 		document.getElementById('details pacman header').innerHTML = details_pacman_header
 		document.getElementById('details pacman').innerHTML = details_pacman
